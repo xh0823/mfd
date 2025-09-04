@@ -288,7 +288,7 @@ function homePageHTML() {
         <div class="content">
             <h2>Welcome!</h2>
             <p>请输入管理密码.</p>
-            <input type="text" id="uuidInput" placeholder="Enter your UUID here">
+            <input type="text" id="uuidInput" placeholder="密码">
             <button onclick="redirectToUUID()">Generate Configuration</button>
 
             <script>
