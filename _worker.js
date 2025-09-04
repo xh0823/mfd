@@ -287,9 +287,9 @@ function homePageHTML() {
         <h1>welcome</h1>
         <div class="content">
             <h2>Welcome!</h2>
-            <p>请输入管理密码.</p>
+            <p>密码提示，密码长度32位，有特殊符号和大小写</p>
             <input type="text" id="uuidInput" placeholder="密码">
-            <button onclick="redirectToUUID()">Generate Configuration</button>
+            <button onclick="redirectToUUID()">不要问我，问也不说，自己慢慢想</button>
 
             <script>
                 function redirectToUUID() {
