@@ -284,9 +284,9 @@ function homePageHTML() {
 
     <!-- Main Content -->
     <div class="main-content">
-        <h1>welcome</h1>
+        <h1></h1>
         <div class="content">
-            <h2>Welcome!</h2>
+            <h2></h2>
             <p>密码提示，密码长度32位，有特殊符号和大小写</p>
             <input type="text" id="uuidInput" placeholder="密码">
             <button onclick="redirectToUUID()">不要问我，问也不说。</button>
