@@ -286,7 +286,7 @@ function homePageHTML() {
     <div class="main-content">
         <h1>welcome</h1>
         <div class="content">
-            <h2>Welcome to EDtunnel-rev!</h2>
+            <h2>Welcome!</h2>
             <p>请输入管理密码.</p>
             <input type="text" id="uuidInput" placeholder="Enter your UUID here">
             <button onclick="redirectToUUID()">Generate Configuration</button>
