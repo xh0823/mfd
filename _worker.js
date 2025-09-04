@@ -28,7 +28,7 @@ function homePageHTML() {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDtunnel-rev - VLESS Proxy</title>
+    <title>welcome</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -282,24 +282,12 @@ function homePageHTML() {
 </head>
 <body>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <div>
-            <h2>Navigation</h2>
-            <a href="https://edt.us.kg" target="_blank"><i class="fas fa-info-circle"></i> Project Overview</a>
-            <a href="https://t.me/edtunrev" target="_blank"><i class="fab fa-telegram"></i> Telegram Group</a>
-        </div>
-        <div>
-            <a href="https://github.com/EDtunnel-rev/EDtunnel-rev" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a>
-        </div>
-    </div>
-
     <!-- Main Content -->
     <div class="main-content">
-        <h1>EDtunnel-rev - The Best VLESS Proxy Based on Cloudflare Pages</h1>
+        <h1>welcome</h1>
         <div class="content">
             <h2>Welcome to EDtunnel-rev!</h2>
-            <p>This tool provides a robust and efficient way to use the VLESS proxy protocol using Cloudflare Pages. Enter your UUID below to generate a custom VLESS configuration page.</p>
+            <p>请输入管理密码.</p>
             <input type="text" id="uuidInput" placeholder="Enter your UUID here">
             <button onclick="redirectToUUID()">Generate Configuration</button>
 
@@ -313,13 +301,6 @@ function homePageHTML() {
                     }
                 }
             </script>
-
-            <div class="special-thanks">
-                <h2>Special Thanks</h2>
-                <p>1. Contributors to this project, whether their branches were merged or not. Thank you, @rayhanbone, @kardus911, and others! (See them at <a href="https://github.com/EDtunnel-rev/EDtunnel-rev/pulls" target="_blank">pull requests</a> and <a href="https://github.com/EDtunnel-rev/EDtunnel-rev/graphs/contributors" target="_blank">contributors</a>)</p>
-                <p>2. Everyone who has forked, starred, or watched this repository. (Check out the <a href="https://github.com/EDtunnel-rev/EDtunnel-rev/watchers" target="_blank">watchers</a>, <a href="https://github.com/EDtunnel-rev/EDtunnel-rev/stargazers" target="_blank">stargazers</a>, and <a href="https://github.com/EDtunnel-rev/EDtunnel-rev/forks" target="_blank">forks</a>)</p>
-                <p>3. Special recognition to the community from linux.do for their support and contributions to this repository.</p>
-            </div>
         </div>
     </div>
 
